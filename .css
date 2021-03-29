@@ -1,0 +1,43 @@
+*{
+    outline:none;
+}
+body{
+    background:linear-gradient(to left, #ffff00, #ff6798);
+}
+h2{
+    color: darkblue;
+    font-size:50px;
+    text-align:center;
+    font-family:cursive;
+    
+}
+.rem{
+    margin-left: 5px;
+    background-color: white;
+    color: red;
+    border: none;
+    cursor: pointer;
+}
+button{
+    border:5px solid darkblue;
+    border-radius:20px;
+    color:darkblue;
+    font-family:cursive;
+    font-weight:bolder ;
+}
+input{
+    background:pink;
+    border:3px solid darkblue;
+    border-radius:25px;
+    padding:7px;
+    text-align:center;
+    margin-left:50px;
+    color:darkblue;
+    font-family:cursive;
+    font-size:20px;
+}
+::placeholder{
+    color:darkblue;
+    font-family:cursive;
+    font-size:15px;
+}
